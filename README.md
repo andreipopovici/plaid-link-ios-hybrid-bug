@@ -6,7 +6,7 @@ Please see https://github.com/plaid/link/issues/237 for more details.
 
 - Vue.js webapp created using Quasar Framework v.14 CLI tool
 - integrates with Cordova using `quasar wrap cordova`
-- relevant code sample is in `[src/components/Hello.vue](https://github.com/andreipopovici/plaid-link-ios-hybrid-bug/blob/master/src/components/Hello.vue)`
+- relevant code sample is in [`src/components/Hello.vue`](https://github.com/andreipopovici/plaid-link-ios-hybrid-bug/blob/master/src/components/Hello.vue)
 
 ## Steps to reproduce:
 
