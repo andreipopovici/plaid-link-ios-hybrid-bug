@@ -1,5 +1,13 @@
 # Plaid Link bug in iOS hybrid apps
 
+# UPDATE (3/28/18)
+
+It looks like this was caused by a change in Cordova's whitelist plugin. The fix is to add
+
+```<allow-navigation href="*" />```
+
+inside `<widget>` in `config.xml`. Of course, the URL could then be refined to only allow Plaid's CDN for Link files.
+
 Please see https://github.com/plaid/link/issues/237 for more details.
 
 ## Contents:
